@@ -1,0 +1,11 @@
+ INSERT INTO STATES VALUES (
+'aaa' , 10,
+SDO_GEOMETRY (
+2002, null, null,
+SDO_ELEM_INFO_ARRAY (1,2,1),
+SDO_ORDINATE_ARRAY (
+10,10, 20,25, 30,10, 40,10))
+);
+
+select *
+from states;
